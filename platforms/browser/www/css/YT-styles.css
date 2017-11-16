@@ -1,0 +1,578 @@
+/*WELCOME CSS*/
+.moveto-page{
+    position: fixed;
+    right: 20px;
+    
+}
+.moveto-page .fa-caret-right{
+    color:#c65a58;
+    font-size: 48px;
+}
+.instractions-innerx h2{
+    font-size: 24px !important;
+}
+
+.instractions-innerx p{
+    text-align: justify;
+}
+/*WELCOME CSS*/
+
+
+/*MAINMENU CSS*/
+.main-menu-cont{
+    width:94%;
+    margin-left: 3%;
+}
+.main-menu-cont h2{
+    font-size: 24px !important;
+}
+.sub-main{margin: 2%;}
+.sub-main ul{margin: 0;padding: 0;position: relative;}
+.sub-main ul li{
+    display: block;
+    border-bottom: 2px solid #e3e3e3;
+    line-height: 3.0rem;   
+    text-align: center;
+}
+
+.sub-main ul li a{
+    display: block;
+    color:#c65a58;
+    font-weight: bold;
+}
+/*MAINMENU CSS*/
+
+
+
+/*TestResult css*/
+.testresult-menu a{
+    display: block;
+    border-bottom: 2px solid #e3e3e3;
+    line-height: 3.0rem;   
+    text-align: center;
+    color:#c65a58;
+    font-weight: bold; 
+    font-size:24px;
+}
+
+.testresult-menu.open a{
+    border-bottom: none;
+}
+
+.testresult-menu i{
+float: right;
+transition: all .4s ease-in-out;
+font-size: 1.7rem;
+line-height: 3rem;
+color:#757378;
+}
+
+.testresult-menu.open i{
+    transform: rotate(180deg);
+}
+.sub-testresults{border-bottom: 2px solid #e3e3e3;display: none;}
+
+.testresult-menu .testresult-menu-color{
+    color:#f1a646;
+}
+.testresult-menu .testresult-menu-color1{
+    color:#5f9b64;
+}
+
+
+.sub-testresult-menu{
+    display: block;
+    line-height: 3.0rem;   
+    text-align: center;
+    color:#757378;
+    font-weight: bold; 
+    font-size:17px;
+}
+
+.sub-testresult-menu i{
+float: right;
+transition: all .4s ease-in-out;
+font-size: 1.4rem;
+line-height: 3rem;
+color:#757378;
+}
+
+.sub-testresult-menu.expanded i{
+    transform: rotate(180deg);
+}
+
+.sub-inner-content{display: none;border-bottom: 1px solid #e3e3e3;}
+
+
+.sub-inner-testresult-menu{
+    display: block;
+    line-height: 2.5rem;   
+    text-align: left;
+    color:#757378;
+    font-weight: bold; 
+    font-size:15px;
+
+}
+
+.sub-inner-testresult-menu i{
+float: right;
+transition: all .4s ease-in-out;
+font-size: 1rem;
+line-height:2.5rem;
+color:#757378;
+}
+
+.sub-inner-testresult-menu.expanded i{
+    transform: rotate(180deg);
+}
+
+/*.sub-sub-inner-content{display: none;}*/
+
+.sub-sub-inner-content p{
+    text-align: left;
+    margin: 0;
+}
+
+/*TestResult css*/
+
+
+/*Sub-main-menu Css*/
+
+.sub-main-menu{
+    width:94%;
+    margin-left: 3%;
+}
+
+.sub-main-menu-cont{
+    margin: 2%;
+    margin-top: 30px;
+}
+
+.sub-main-menu a{
+
+    display: block;
+    vertical-align: middle;
+    color: #cecece;
+    font-size: 2.6vh;
+    line-height: 6vh;
+
+}
+.sub-main-menu .icon{
+    font-size: 1.1rem;
+    margin-left: 5px;
+    margin-right: 10px;
+    line-height: 6vh;
+
+}
+.sub-icon-position{
+    float: left;
+}
+.sub-menu-position{
+    float: left;
+    width:50%;
+}
+
+.sub-main-menu-cont1{
+    margin-top: 20px;
+}
+.sub-main-menu-cont1 a{
+    color:#c65a58
+}
+.sub-main-menu-cont1 icon{
+    color:#c65a58
+}
+
+/*Sub-main-menu Css*/
+
+
+/*Meal-Tracker Css*/
+
+.meal-tracker{width:94%;margin-left: 3%;}
+.meal-tracker-cont{margin: 2%;}
+.meal-tracker-cont h2 {
+    font-size: 24px !important;
+}
+
+.meal-tracker-menu a{
+    display: block;
+   
+    line-height: 3.0rem;
+    text-align: left;
+    color: #757378;
+    font-weight: bold;
+    font-size: 17px;
+}
+.meal-tracker-menu i{
+float: right;
+transition: all .4s ease-in-out;
+font-size: 1.7rem;
+line-height: 3rem;
+color: #757378;
+}
+
+.meal-tracker-menu.open i{
+    transform: rotate(180deg);
+}
+.sub-meal-tracker-menu{display: none;}
+
+.sub-meal-cont label{
+    float: left;
+    width: 30%;
+    line-height: 45px;
+    color: #757378;
+    font-size: 16px;
+    font-weight: bold;
+}
+.sub-meal-cont input{
+    float: left;
+    width: 60%;
+    background-color: #c3c3c3;
+}
+.clear-fix{clear:both;}
+.input-remove{
+    background-color: transparent !important;
+    border: none !important;
+    color:#757378;
+}
+.sub-exercise-cont label{
+    float: left;
+    width: 30%;
+    line-height: 45px;
+    color: #757378;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.al-right{
+    float: right!important;
+    width: 60%;
+    background-color: #c3c3c3;
+}
+.btn-save{
+    color: #c65a58;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid #e3e3e3;
+    /*float: right;*/
+    box-shadow: 0px 0px 10px #cac6c6;
+}
+.btn-save:hover{
+    background-color: #c65a58;
+    color:#fff;
+}
+/*Meal-Tracker Css*/
+
+
+/*Allergens css*/
+.allergens-save{margin: 0 5%;}
+
+
+.allergens-innerx li{
+    color:#606060;
+}
+.allergens-save a{
+    color: #c65a58;;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 17px;
+    background-color:transparent ;
+    border:1px solid #e3e3e3;
+    float: right;
+    box-shadow: 0px 0px 10px #cac6c6;
+}
+.allergens-save a:hover{
+    background-color: #c65a58;
+    color:#fff;
+}
+/*Allergens css*/
+
+
+/*DIRECT page css*/
+.direct-cont{
+    margin-top: 30px;
+}
+
+.direct-menu a{
+    display: block;
+    border-bottom: 2px solid #e3e3e3;
+    line-height: 3.0rem;
+    text-align: center;
+    font-weight: bold;
+    color: #757378;
+
+}
+
+.direct-menu i{
+    float: right;
+    transition: all .4s ease-in-out;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: #757378;
+    }
+    
+    .direct-menu.open i{
+        transform: rotate(180deg);
+    }
+    .sub-direct-menu-menu{display: none;}
+
+
+/*DIRECT page css*/
+
+/*MY Drink Guide css*/
+
+
+.drinks-guide-menu  a{
+    display: block;
+    border-bottom: 2px solid #e3e3e3;
+    line-height: 3.0rem;
+    text-align: center;
+    font-weight: bold;
+    color: #757378;
+    font-size: 17px;
+}
+
+.drinks-guide-menu.open a{
+    border-bottom:none;
+}
+
+.drinks-guide-menu  i{
+    float: right;
+    transition: all .4s ease-in-out;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: #757378;
+    }
+    
+    .drinks-guide-menu.open  i{
+        transform: rotate(180deg);
+    }
+    .sub-drinks-guide{display: none;border-bottom: 2px solid #e3e3e3;}
+
+    .sub-drinks-guide-menu a{
+        display: block;
+        line-height: 3.0rem;
+        text-align:left;
+        font-weight: bold;
+        color: #757378;
+        font-size: 16px;
+    }
+
+    .sub-drinks-guide-menu  i{
+        float: right;
+        transition: all .4s ease-in-out;
+        font-size: 1.7rem;
+        line-height: 3rem;
+        color: #757378;
+        }
+    
+    .drink-guide-span{
+        float:right;
+        margin-right: 50px;
+    }
+
+/*MY Drink Guide css*/
+
+
+/*food-diary Css*/
+
+.food-diary-cont{
+
+    width:94%;
+    margin-left: 3%;
+}
+
+.food-diary-cont h2{
+    font-size: 24px !important;
+}
+.food-diary-sub{margin: 2%;margin-top: 50px;}
+.food-diary-sub ul{margin: 0;padding: 0;position: relative;}
+.food-diary-sub ul li{
+    display: block;
+    border-bottom: 2px solid #e3e3e3;
+    line-height: 3.0rem;   
+    text-align: center;
+}
+
+.food-diary-sub ul li a{
+    display: block;
+    color:#c65a58;
+    font-weight: bold;
+}
+/*food-diary Css*/
+
+
+/*Weekly records css*/
+
+    .weekly-records-cont{
+    
+        width:94%;
+        margin-left: 3%;
+    }
+    
+    .weekly-records-cont h2{
+        font-size: 24px !important;
+    }
+
+    .weekly-records-sub{
+        margin-top: 30px;margin: 2%;
+    }
+
+    .weekly-records-menu a{
+        display: block;
+        border-bottom: 2px solid #e3e3e3;
+        line-height: 3.0rem;
+        text-align: left;
+        font-weight: bold;
+        color: #757378;
+
+    }
+
+    .weekly-records-menu i{
+        float: right;
+        transition: all .4s ease-in-out;
+        font-size: 1.7rem;
+        line-height: 3rem;
+        color: #757378;
+        }
+    
+/*Weekly records css*/
+
+/*Dairly records css*/
+
+.record-grid{
+    width:100%;
+    border-collapse:collapse;
+    }
+    .record-grid th{       
+        line-height: 1.5rem;
+        font-weight: bold;
+        color: #757378;
+        padding:10px;
+        text-align:left;
+    }
+    .record-grid td{
+        text-align:left;
+        padding:10px;
+        color: #757378;
+        line-height: 1.5rem;
+    }
+    .record-grid td:nth-child(2){
+        text-align: center;
+        }
+    .record-grid td:last-child{
+        text-align: center;
+        }
+        .record-grid th:nth-child(2){
+            text-align: center;
+            }
+        .record-grid th:last-child{
+            text-align: center;
+            }
+    
+    .record-grid .fa-circle{
+        color:#c65a58;
+        font-size: 12px;
+
+
+    }
+
+    .week-tip a{
+        margin-top:20px;
+        font-size: 17px;
+        color:#c65a58;
+    }
+    .feeling-record{   
+        display: none;     
+        position: absolute;
+        top: 25%;
+        left: 25%;
+        background-color: #d1d1d1;
+        padding: 10px;        
+    }
+    .feeling-record p{
+        
+        color:#c65a58;
+    }
+    .feeling-record h5{
+        font-size: 18px;
+        color:#c65a58;
+        margin-top: 5px;
+        text-align: center;
+        font-weight: bold;
+    }
+    .feeling-record i{
+        color:#c65a58;
+        font-size: 16px;
+    }
+    .active{color:#c65a58;}
+/*Dairly records css*/
+
+
+/*intolerances page*/
+.intolerances-cont{
+    width: 94%;
+    margin-left: 3%;
+}
+.intolerances-cont h2{font-size: 24px !important;}
+.intro-cont{margin:2%;margin-top: 20px;}
+
+.intolerances-menu a{
+    display: block;
+    border-bottom: 2px solid #e3e3e3;
+    line-height: 3.0rem;
+    text-align: center;
+    font-weight: bold;
+    color: #757378;
+
+}
+
+.intolerances-menu i{
+    float: right;
+    transition: all .4s ease-in-out;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: #757378;
+    }
+
+
+    .intolerances-border{margin: 0 5%;}
+    
+    .intolerances-border a{
+        color: #c65a58;;
+        padding: 5px 10px;
+        border-radius: 5px;
+        font-size: 17px;
+        background-color:transparent ;
+        border:1px solid #e3e3e3;
+        float: right;
+        box-shadow: 0px 0px 10px #cac6c6;
+    }
+    .intolerances-border a:hover{
+        background-color: #c65a58;
+        color:#fff;
+    }
+/*intolerances page*/
+/*Exercise-Tracker Css*/
+.exercise-tracker-menu a{
+    display: block;
+    
+     line-height: 3.0rem;
+     text-align: left;
+     color: #757378;
+     font-weight: bold;
+     font-size: 18px;
+}
+.exercise-tracker-menu i{
+    float: right;
+    transition: all .4s ease-in-out;
+    font-size: 1.7rem;
+    line-height: 3rem;
+    color: #757378;
+    }
+    
+    .exercise-tracker-menu.open i{
+        transform: rotate(180deg);
+    }
+/*Exercise-Tracker Css*/
